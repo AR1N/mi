@@ -7,7 +7,7 @@ $(function () {
     });
 //comment部分
     $(".hometool_right li").hover(function(){
-    $(this).find(".comment").slideToggle("fast");
+    $(this).find(".comment").stop().slideToggle("fast");
 });
    
 
